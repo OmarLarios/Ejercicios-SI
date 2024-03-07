@@ -1,7 +1,7 @@
 #contenedor{
     position: relative;
     text-align: center;
-    height: 450px;
+    height: 500px;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
@@ -32,6 +32,6 @@ button {
 #QR{
     position: relative;
     top: 10px;
-    left: 600px;
+    left: 610px;
     text-align: center;
 }
