@@ -12,7 +12,7 @@ var QRCode;
 
 (function () {
 	//----------------------------------------------------------------------
-	// QRCode for JavaScriptt
+	// QRCode for JavaScript
 	//
 	// Copyright (c) 2009 Kazuhiko Arase
 	//
