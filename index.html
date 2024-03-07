@@ -2,15 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Generador de QR</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1>Generador de Código QR</h1>
-    <div class="contenedor">
-        <form action="" id="formulario" class="formulario">
-            <input type="text" id="entradaD" placeholder="Escribe tu no. de cuenta">
-            <button id="boton">Generar QR</button>
-        </form>
+    <div id="contenedor">    
+        <div id="titulo"><h1>Generador de Código QR</h1></div>
+            <br><br>
+            <form id="formulario">
+                <input type="text" id="entradaD" placeholder="Escribe tu no. de cuenta">              
+                <br><br><br>
+                <button id="boton">
+                    <h3>Generar QR</h3>
+                </button>
+            </form>   
         <div id="QR"></div>
     </div>
 </body>
